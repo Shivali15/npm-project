@@ -1,5 +1,11 @@
 console.log("Hello from our very own npm package.")
 
-const sayMyName = name => console.log(`Your name is ${name}.`)
+const power = function(base, exponent) {
+  let result = 1;
+  for (let count = 0; count < exponent; count++) {
+    result *= base;
+  }
+  return result;
+};
 
-module.exports = {sayMyName}
+module.exports = {power}
