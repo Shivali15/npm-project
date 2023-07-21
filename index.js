@@ -1,4 +1,3 @@
-console.log("Hello from our very own npm package.")
 
 const power = function(base, exponent) {
   let result = 1;
@@ -8,4 +7,4 @@ const power = function(base, exponent) {
   return result;
 };
 
-export default power;
+module.exports = {power}
