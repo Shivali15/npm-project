@@ -8,4 +8,4 @@ const power = function(base, exponent) {
   return result;
 };
 
-module.exports = {power}
+export default power;
