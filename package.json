@@ -2,7 +2,6 @@
   "name": "@Shivali15/inquirer_npm_package",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/Shivali15/inquirer_npm_package.git"
